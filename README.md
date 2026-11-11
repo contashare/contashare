@@ -18,12 +18,12 @@ they still share it with gets a webhook and fetches the new version through the 
 
 | Package | For | Install |
 | --- | --- | --- |
-| [contashare-socialite](https://github.com/contashare/contashare-socialite) | Laravel (Socialite driver) | `composer require contashare/socialite` |
-| [contashare-node](https://github.com/contashare/contashare-node) | Node.js 18+ | `npm install contashare` |
-| [contashare-python](https://github.com/contashare/contashare-python) | Python 3.9+ | `pip install contashare` |
+| [contashare-socialite](https://github.com/contashare/contashare-socialite) | Laravel (Socialite driver) | [`composer require contashare/socialite`](https://packagist.org/packages/contashare/socialite) |
+| [contashare-node](https://github.com/contashare/contashare-node) | Node.js 18+ | [`npm install contashare`](https://www.npmjs.com/package/contashare) |
+| [contashare-python](https://github.com/contashare/contashare-python) | Python 3.9+ | `pip install git+https://github.com/contashare/contashare-python` |
 
-Each one signs customers in, reads what they share, and checks webhook signatures. They're on their way to Packagist, npm and
-PyPI; until then, install them from these repos.
+Each one signs customers in, reads what they share, and checks webhook signatures. The Python package is on its way to PyPI;
+until then, install it from its repo.
 
 ## Docs
 
